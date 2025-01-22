@@ -1,8 +1,17 @@
-api_hash: your_api_hash
-api_id: your_api_id
+api_hash: 87b8656221e390f43a259bb814e874c3
+api_id: 23632718
+bot_token: 6885753787:AAGC2vWo4dWeX1FyO53CKt0BAptQlu9aga0
 chat:
-- chat_id: telegram_chat_id
-  last_read_message_id: 0
+- chat_id: YvanGroup
+  last_read_message_id: 33
+media_types:
+- audio
+- document
+- photo
+- video
+- voice
+- animation
+- video_note
 file_formats:
   audio:
   - all
@@ -10,15 +19,26 @@ file_formats:
   - all
   video:
   - all
+save_path: ./TMDFiles
 file_path_prefix:
 - chat_title
 - media_datetime
-media_types:
-- audio
-- photo
-- video
-- document
-- voice
-- video_note
-# in linux please use /
-# save_path: E:\github\telegram_media_downloader
+upload_drive:
+  enable_upload_file: true
+  remote_dir: Onedrive:/个人兴趣/Server_Upload
+  upload_adapter: rclone
+  rclone_path: /usr/bin/rclone
+  after_upload_file_delete: true
+hide_file_name: false
+file_name_prefix:
+- file_name
+- caption
+file_name_prefix_split: _
+max_download_task: 3
+web_host: 0.0.0.0
+web_port: 7860
+language: ZH
+web_login_secret: 1227
+allowed_user_ids:
+- me
+date_format: '%Y_%m'
