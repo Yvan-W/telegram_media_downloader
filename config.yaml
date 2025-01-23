@@ -19,7 +19,7 @@ file_formats:
   - all
   video:
   - all
-save_path: ./TMDFiles
+save_path: ../TMDFiles
 file_path_prefix:
 - chat_title
 - media_datetime
