@@ -27,7 +27,7 @@ upload_drive:
   enable_upload_file: true
   remote_dir: Onedrive:/个人兴趣/Server_Upload
   upload_adapter: rclone
-  rclone_path: /usr/bin/rclone
+  rclone_path: /usr/bin/11223343
   after_upload_file_delete: true
 hide_file_name: false
 file_name_prefix:
