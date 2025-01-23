@@ -3,7 +3,7 @@ api_id: 23632718
 bot_token: 6885753787:AAGC2vWo4dWeX1FyO53CKt0BAptQlu9aga0
 chat:
 - chat_id: YvanGroup
-  last_read_message_id: 33
+  last_read_message_id: 999999999999
 media_types:
 - audio
 - document
